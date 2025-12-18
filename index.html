@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Momo+Trust+Display&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+    <title>Portafolio - Pao Resendiz</title>
+    <meta 
+  name="description"
+  content="Portafolio de Pao, diseñadora y desarrolladora web. Conoce mis proyectos, habilidades y forma de contacto."
+>
+<!-- Open Graph -->
+<meta property="og:title" content="Portafolio de Pao">
+<meta property="og:description" content="Diseño y desarrollo web. Proyectos creativos y contacto.">
+<meta property="og:image" content="https://tusitio.netlify.app/img/preview.jpg">
+<meta property="og:url" content="https://tusitio.netlify.app">
+<meta property="og:type" content="website">
+</head>
+<body>
+    <header>
+       <nav class="navbar">
+        <div class="navbar__container">
+          <a href="index.html"><img class="navbar__logo" src="icons/logo_pao.png" 
+            alt="logo">
+        </a>
+     <button 
+        class="navbar-toggle"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="navbar-menu"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+        
+        <ul class="navbar__menu" id="navbar-menu">
+            <li><a href="index.html">Portafolio</a></li>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="work.html">Proyectos</a></li>
+            
+        </ul>
+                  <!-- botón modo oscuro -->
+        <div class="navbar__icons">
+          <button 
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Cambiar tema"
+        >
+           <img src="icons/moon.svg" alt="">
+      </button>
+        </div>
+        </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="intro">
+          <div>
+            <h1>Pao <br>Resendiz</h1>
+            <img src="img/portrait.png" alt="retrato-paola-resendiz"class="intro-portrait">
+            </div>
+            <article class="intro_skils">
+                <img src="img/skills.png" alt="my skills motion graphics uxui design">
+            </article>
+        </section>
+      
+        <section class="about" id="about">
+          <div class="about_description">
+            <p>Me llamo Paola, soy Artista Visual en CDMX. </p>
+              <p>Mi trabajo se mueve entre el diseño gráfico, el motion graphics, la ilustración y el modelado 3D.
+              Actualmente estudio UX/UI y diseño web.</p>
+               <p>Con una mezcla de creatividad y tecnología, busco transformar ideas en experiencias visuales significativas.</p>
+
+            
+            </div>
+            <article class="about_skills">
+            <h2>Skills</h2>
+            <div class="about_skills--icons">
+                <img src="icons/photoshop.svg" alt="photoshop">
+                <img src="icons/illustrator.svg" alt="illustrator">
+                <img src="icons/lightroom.svg" alt="lightroom">
+                <img src="icons/aftereffects.svg" alt="after-effects">
+                <img src="icons/blender.svg" alt="blender">
+                <img src="icons/figma-icon.svg" alt="figma">
+            </div>
+            </article>
+        </section>
+<hr>
+        <div class="projects" id="proyectos">
+        <h3>Proyectos</h3>
+        </div>
+      
+        <section class="works-display"> 
+                 <article class="works card">
+          <div class="works-card-info">
+            <a href="motion.html"> 
+            <video autoplay loop muted playsinline><source src="img/sanvalentin.mp4" type="video/mp4"></video>
+            </a>
+              <div>
+              <p>Motion illustration & design</p>
+              </div>
+               <div class="tags">
+                <span>#illustration</span>
+                <span>#design</span>
+                <span>#aftereffects</span>
+                  </div>
+      </article>
+          
+         <article class="works card">
+          <div class="works-card-info">
+            <a href="web-design.html"> 
+            <img src="img/magnolia_mockup.jpg"
+              alt="landing page restaurante mobile " class="works-card-img">
+            </a>
+              <div>
+              <p>landing page y menu</p>
+              </div>
+               <div class="tags">
+                <span>#html</span>
+                <span>#css</span>
+                <span>#mobilefirst</span>
+                  </div>
+      </article>
+      <article class="works card">
+          <div class="works-card-info">
+            <a href="web-design.html"> 
+            <img src="img/omnia-ecommerce.jpg"
+              alt="landing page y display productos de joyeria" class="works-card-img">
+            </a>
+            <div>
+              <p> Diseño ecommerce-Joyería</p>
+              </div>
+          
+              <div class="tags">
+                <span>#diseño uxui</span>
+                <span>#branding</span>
+                <span>#frontend</span>
+          </div>
+              
+      </article>
+         <article class="works card">
+          <div class="works-card-info">
+            <a href="posters.html"> 
+            <img src="https://i.pinimg.com/736x/0c/78/61/0c78618b40de589333bf0c52c72df5e1.jpg"
+              alt="typography poster" class="works-card-img">
+            </a>
+              <div>
+              <p>Poster</p>
+              </div>
+                  <div class="tags">
+                <span>#poster</span>
+                <span>#typography</span>
+                <span>#design</span>
+                  </div>
+      </article>
+
+ 
+        </section>
+
+        <section class="view-more">
+          <a href="work.html"> <button class="main-button" type="submit">Ver más</button></a>
+                 
+        </section>
+
+<hr>
+
+        <section class="contact-wrapper" id="contacto">
+  <!-- Columna izquierda -->
+  <div class="contact-text">
+    <h4>Ponte en contacto conmigo</h4>
+
+    <p>
+      Llena este pequeño formulario 
+      y cuéntame sobre tu proyecto. <br>¡Mientras más detalles, mejor!
+    </p>
+
+    <p>
+      ¡Gracias por tu interés!
+    </p>
+     <section class="socials">
+            <h5> Contáctame por acá tambien </h5>
+            <div>
+            
+            <a href="https://www.behance.net/paolaresendiz2"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/behance.svg" alt="perfil behance"></a>
+            <a href="https://www.linkedin.com/in/paola-resendiz-diseño-web"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/linkedin.svg" alt="perfil linkedin"></a>
+             
+             <a href="mailto:presendiz.rj@gmail.com"><img src="icons/mail.svg" alt="correo gmail"></a>
+            </div>
+        </section>
+  </div>
+
+  <!-- Columna derecha: el formulario -->
+ 
+ <form 
+  name="contacto"
+  method="POST"
+  data-netlify="true"
+  class="contact-form"
+>
+  <!-- Campo oculto obligatorio -->
+  <input type="hidden" name="form-name" value="contacto">
+
+  <label>Tu nombre *</label>
+  <div class="two-inputs">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="text" name="apellido" placeholder="Apellido">
+  </div>
+
+  <label>Tu email *</label>
+  <input type="email" name="email" placeholder="email@email.com" required>
+
+  <label>Cuéntame sobre tu proyecto *</label>
+  <textarea 
+    name="mensaje"
+    placeholder="¿En qué puedo ayudarte?"
+    required>
+  </textarea>
+
+  <button type="submit">Enviar ✦</button>
+</form>
+
+
+<form
+  name="contacto"
+  method="POST"
+  data-netlify="true"
+  action="/gracias.html"
+>
+       
+    </main>
+    <footer>
+      <nav class="navbar-footer">
+        <div class="navbar__container">
+          
+          <a href="index.html"><img class="navbar__logo" src="icons/logo_pao.png" 
+            alt="logo">
+        </a>
+       
+        
+          <div class="about_skills">
+            <p>Más de mi:</p>
+            <a href="https://github.com/paoresendiz"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/github.svg" alt="perfil github"></a>
+      
+              <a href="https://presendizrj.myportfolio.com/work"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/adobe-portfolio.svg" alt="perfil adobe portfolio"></a>
+
+   <a href="https://mx.pinterest.com/paoao_/"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/pinterest.svg" alt="perfil pinterest"></a>
+         <a href="https://www.behance.net/paolaresendiz2"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/behance_black.svg" alt="perfil behance"></a>
+            <a href="https://www.linkedin.com/in/paola-resendiz-diseño-web"  target="_blank"
+   rel="noopener noreferrer"><img src="icons/linkedin_black.svg" alt="perfil linkedin"></a>
+       </div>
+      
+        </nav>
+    </footer>
+    <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
