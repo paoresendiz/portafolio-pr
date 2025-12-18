@@ -548,23 +548,34 @@
   </div>
 
   <!-- Columna derecha: el formulario -->
-  <form class="contact-form">
+  <form 
+  name="contacto"
+  method="POST"
+  data-netlify="true"
+   action="/gracias.html"
+  class="contact-form"
+>
+  <!-- Campo oculto obligatorio -->
+  <input type="hidden" name="form-name" value="contacto">
 
-    <label>tu nombre <span>(requerido)</span></label>
-    <div class="two-inputs">
-      <input type="text" placeholder="Nombre" required>
-      <input type="text" placeholder="Apellido">
-    </div>
+  <label>Tu nombre *</label>
+  <div class="two-inputs">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="text" name="apellido" placeholder="Apellido">
+  </div>
 
-    <label>tu email <span>(requerido)</span></label>
-    <input type="email" placeholder="email@email.com" required>
+  <label>Tu email *</label>
+  <input type="email" name="email" placeholder="email@email.com" required>
 
-    <label>cuéntame sobre tu proyecto <span>(requerido)</span></label>
-    <textarea placeholder="¿En qué puedo ayudarte? ¿Qué necesitas?" required></textarea>
-   
+  <label>Cuéntame sobre tu proyecto *</label>
+  <textarea 
+    name="mensaje"
+    placeholder="¿En qué puedo ayudarte?"
+    required>
+  </textarea>
 
-    <button type="submit">Enviar ✦</button>
-  </form>
+  <button type="submit">Enviar ✦</button>
+</form>
 </section>
        
 
