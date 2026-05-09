@@ -461,6 +461,12 @@ footer{
   height: 350px;
   object-fit: cover;
 }
+.gallery-4 img{
+   width: 780px;
+  border-radius: 10px;
+  height: 350px;
+  object-fit:contain;
+}
 .secondary-button{
   width: 300px;
   font-family: "Sen", sans-serif;
